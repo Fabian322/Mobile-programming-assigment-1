@@ -73,15 +73,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               }).toList(),
             ),
-            const Padding(
-              padding: EdgeInsets.all(16),
-              child: TextField(
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'Title search',
-                ),
-              ),
-            ),
             ElevatedButton(
                 onPressed: _getGenre, child: const Text("Load Genre")),
             ElevatedButton(

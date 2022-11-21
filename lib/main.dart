@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
+//
   Future<void> _getGenre() async {
     ProgressDialog progressDialog = ProgressDialog(context,
         message: const Text("Progress"), title: const Text("Searching..."));
